@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter';
+    
+}
+
+#logo{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#ttl-menuSuperior{
+    margin-left: 150px;
+    margin-top: 50px;
+    
+}
+
+#txt-menuSuperior{
+    margin-left: 150px;
+    margin-top: 35px;
+    padding-bottom: 100px;
+    
+}
+
+.menuSuperior{
+    background-image: url(/assets/images/img-fundo.svg);
+    color: aliceblue;
+    
+}
+
+.menuInformacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+}
+
+.icon{
+    margin: 50px 0px 50px 100px;
+    padding: 10px;
+}
+
+.textoInformativo{
+    display: flex;
+    align-items: center;
+
+}
+
+#sectionVideo{
+    color:#247BA0;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#titleVideo{
+    margin-top: 50px;
+    line-height: 150%;
+    font-size: 32px;
+}
+
+#txtVideo{
+    margin-top: 20px;
+    line-height: 150%;
+    font-size: 16px;
+}
+
+#video{
+    margin: 50px 25px 50px 95px;
+    
+}
+
+#carrousel{
+    background-color: #247BA0;
+    color:aliceblue;
+    padding: 50px;
+    line-height: 150%;
+    text-align: center;
+}
+
+#divCards{
+    margin-top: 25px;
+    display:grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+.card{
+    margin-left: 20px;
+}
+
+#left{
+    display: none;
+    cursor: pointer;
+}
+
+#bruna{
+    display: none;
+}
+
+.seta{
+    margin: 55%;
+    cursor: pointer;
+}
+
+#left:hover{
+    transform: translate(-7px);
+    transition-duration: 0.5s;
+}
+
+#right:hover{
+    transform: translate(7px);
+    transition-duration: 0.5s;
+}
+
+#footer{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.form{
+    margin: 10px;
+    padding: 7px;
+
+    height: 33px;
+    background-color: #EAECE5;
+    border: none;
+    border-radius: 8px;
+
+    width: 330px;
+
+    font-size: 14px;
+    
+}
+
+#titleFooter{
+    margin-bottom: 30px;
+}
+
+#btn{
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    background-color: #247BA0;
+    border: none;
+
+    width: 275px;
+    height: 39px;
+
+    color: aliceblue;
+    font-weight: 700;
+    border-radius: 5px;
+
+    padding: 10px;
+
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+#btn:hover{
+    transform: translateY(-7px);
+
+}
+
+
+
+
+
+
